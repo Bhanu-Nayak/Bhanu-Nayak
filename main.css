@@ -1,0 +1,21 @@
+.navhead{
+    background-color:gray;
+    border-bottom-left-radius: 1rem;
+    padding: 3px;
+}
+.nav-buttons{
+    list-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+.nav-button-1{
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+}
+.main{
+    text-align: center;
+}
+.color{
+    color: grey;
+}
