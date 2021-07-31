@@ -1,7 +1,11 @@
+body{
+    margin: 1px;
+}
 .navhead{
-    background-color:gray;
+    background-color: gray;
     border-bottom-left-radius: 1rem;
     padding: 3px;
+    color: white;
 }
 .nav-buttons{
     list-style: none;
@@ -13,9 +17,41 @@
     margin: 10px;
     padding: 5px;
 }
-.main{
+.main, .skills, .projects, .blogs, .footer{
     text-align: center;
 }
 .color{
     color: grey;
 }
+.header{
+    margin-bottom: 8px;
+}
+.header-description{
+    font-weight: 400;
+    margin: 0px;
+    color: lightcyan;
+    background-color: grey;
+    margin: 0px 140px;
+    border-radius: 10px;
+}
+.projects{
+    padding: 1rem;
+}
+.skills, .blogs, .footer-main{
+    background-color: lightcyan;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.footer-main{
+    margin-top: 7px;
+}
+.social{
+    text-align: center;
+}
+.handles{
+    display: inline;
+    padding: 8px;
+}
+
+
+
