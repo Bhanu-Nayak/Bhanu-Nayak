@@ -1,8 +1,9 @@
 body{
     margin: 1px;
+    padding: 0px;
 }
 .navhead{
-    background-color: gray;
+    background-color: #00bfa6;
     border-bottom-left-radius: 1rem;
     padding: 3px;
     color: white;
@@ -17,33 +18,71 @@ body{
     margin: 10px;
     padding: 5px;
 }
+#button{
+    color: white;
+    text-decoration: none;
+}
+#button:hover{
+    color: #0d7a6c;
+}
+img{
+    width: 500px;
+    margin-top: 20px;
+}
+.button-1{
+    /* font-size: large; */
+    border: 1px solid #00bfa6;
+    background-color: #00bfa6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    /* text-align: right; */
+    margin-right: 38rem;
+}
+.button-2{
+    /* font-size: large; */
+    border: 1px solid #00bfa6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: grey;
+    text-decoration: none;
+    /* text-align: right; */
+    margin-right: 38rem;
+}
 .main, .skills, .projects, .blogs, .footer{
     text-align: center;
 }
 .color{
-    color: grey;
+    color: #00bfa6;
 }
 .header{
     margin-bottom: 8px;
 }
 .header-description{
     font-weight: 400;
-    margin: 0px;
+    margin-bottom: 500px;
     color: lightcyan;
-    background-color: grey;
-    margin: 0px 140px;
+    background-color: #00bfa6;
+    margin: 0px 450px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 .projects{
     padding: 1rem;
 }
-.skills, .blogs, .footer-main{
+
+.skills, .blogs{
     background-color: lightcyan;
     border-radius: 10px;
     padding: 1rem;
 }
 .footer-main{
-    margin-top: 7px;
+    /* margin-top: 7px; */
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #00bfa6;
+    color: white;
 }
 .social{
     text-align: center;
@@ -51,6 +90,13 @@ body{
 .handles{
     display: inline;
     padding: 8px;
+}
+#handles{
+    color: white;
+    text-decoration: none;
+}
+#handles:hover{
+    color: #0d7a6c;
 }
 
 
