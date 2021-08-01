@@ -8,6 +8,16 @@ body{
     padding: 3px;
     color: white;
 }
+.myname{
+    color: white;
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#myname:hover{
+    transform: scale(1.1);
+    /* text-align: center; */
+}
 .nav-buttons{
     list-style: none;
     text-align: right;
@@ -28,26 +38,45 @@ body{
 img{
     width: 500px;
     margin-top: 20px;
+    position: relative;
+    transform: translateX(-67px);
+    
 }
-.button-1{
-    /* font-size: large; */
+/* .button-1{
     border: 1px solid #00bfa6;
     background-color: #00bfa6;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
-    /* text-align: right; */
     margin-right: 38rem;
 }
-.button-2{
-    /* font-size: large; */
+
+.button-1:hover{
+    background-color: rgba(0,0,0,0);
     border: 1px solid #00bfa6;
     padding: 10px 20px;
     border-radius: 5px;
     color: grey;
     text-decoration: none;
-    /* text-align: right; */
+    margin-right: 38rem;
+} */
+.button-2{
+    border: 1px solid #00bfa6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: grey;
+    text-decoration: none;
+    margin-right: 38rem;
+}
+
+.button-2:hover{
+    border: 1px solid #00bfa6;
+    background-color: #00bfa6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
     margin-right: 38rem;
 }
 .main, .skills, .projects, .blogs, .footer{
@@ -64,9 +93,10 @@ img{
     margin-bottom: 500px;
     color: lightcyan;
     background-color: #00bfa6;
+    width: auto;
     margin: 0px 450px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .projects{
     padding: 1rem;
