@@ -18,7 +18,7 @@ section{
     height: 100vh;
 }
 
-/* page one */
+/* PAGE ONE-NAME PAGE */
 .one{
     background-color: #1A5276;
     display: block;
@@ -46,6 +46,8 @@ section{
     font-weight: 200;
 }
 
+
+/* ABOUT ME PAGE */
 .about-me{
     background-color: #1A5276;
     display: block;
@@ -74,12 +76,18 @@ section{
     margin-bottom: 3rem;
 }
 .social-list{
-    display: inline-block;
+    display: flex;
     list-style: none;
+}
+.social-list li a{
+    padding: 0 1rem;
+    display: block;
+    font-size: 2rem;
 }
 
 
-/* page two */
+
+/* PAGE TWO-SKILLS PAGE */
 .two{
     background-color: #76448A;
     display: block;
