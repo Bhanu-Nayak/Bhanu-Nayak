@@ -1,133 +1,43 @@
-body{
-    margin: 1px;
-    padding: 0px;
-}
-.navhead{
-    background-color: #00bfa6;
-    border-bottom-left-radius: 1rem;
-    padding: 3px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
     color: white;
-}
-.myname{
-    color: white;
-    width: 200px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-#myname:hover{
-    transform: scale(1.1);
-    /* text-align: center; */
-}
-.nav-buttons{
-    list-style: none;
-    text-align: right;
-    padding-right: 10px;
-}
-.nav-button-1{
-    display: inline;
-    margin: 10px;
-    padding: 5px;
-}
-#button{
-    color: white;
-    text-decoration: none;
-}
-#button:hover{
-    color: #0d7a6c;
-}
-img{
-    width: 500px;
-    margin-top: 20px;
-    position: relative;
-    transform: translateX(-67px);
-    
-}
-/* .button-1{
-    border: 1px solid #00bfa6;
-    background-color: #00bfa6;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    margin-right: 38rem;
 }
 
-.button-1:hover{
-    background-color: rgba(0,0,0,0);
-    border: 1px solid #00bfa6;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: grey;
-    text-decoration: none;
-    margin-right: 38rem;
-} */
-.button-2{
-    border: 1px solid #00bfa6;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: grey;
-    text-decoration: none;
-    margin-right: 38rem;
-}
+section{
+    height: 100vh;
+    display: flex;
 
-.button-2:hover{
-    border: 1px solid #00bfa6;
-    background-color: #00bfa6;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    margin-right: 38rem;
+    scroll-snap-align: start;
 }
-.main, .skills, .projects, .blogs, .footer{
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.one{
+    background-color: #1A5276;
+    display: block;
     text-align: center;
+    padding-top: 50vh;
 }
-.color{
-    color: #00bfa6;
-}
-.header{
-    margin-bottom: 8px;
-}
-.header-description{
-    font-weight: 400;
-    margin-bottom: 500px;
-    color: lightcyan;
-    background-color: #00bfa6;
-    width: auto;
-    margin: 0px 450px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-}
-.projects{
-    padding: 1rem;
-}
-
-.skills, .blogs{
-    background-color: lightcyan;
-    border-radius: 10px;
-    padding: 1rem;
-}
-.footer-main{
-    /* margin-top: 7px; */
-    border-radius: 10px;
-    padding: 1rem;
-    background-color: #00bfa6;
-    color: white;
-}
-.social{
+.two{
+    background-color: #76448A;
+    display: block;
     text-align: center;
+    padding-top: 50vh;
 }
-.handles{
-    display: inline;
-    padding: 8px;
+.three{
+    background-color: #008080;
+    display: block;
+    text-align: center;
+    padding-top: 50vh;
 }
-#handles{
-    color: white;
-    text-decoration: none;
+.four{
+    background-color: #283747;
+    display: block;
+    text-align: center;
+    padding-top: 50vh;
 }
-#handles:hover{
-    color: #0d7a6c;
-}
-
-
-
