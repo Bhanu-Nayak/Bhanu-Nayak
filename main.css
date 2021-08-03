@@ -20,8 +20,29 @@ section{
 .one{
     background-color: #1A5276;
     display: block;
-    text-align: center;
-    padding-top: 50vh;
+    /* text-align: center; */
+    /* padding-top: 50vh; */
+}
+.one h2{
+    font-weight: 300;
+    padding: 1rem;
+}
+.one h2 a{
+    color: rgb(202, 197, 197);
+}
+.name-page{
+    padding: 30vh 35vh;
+    font-family: sans-serif;
+}
+.name-page h1{
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.name-page p{
+    margin-top: 0.8rem;
+    font-size: 1.25rem;
+    font-weight: 200;
 }
 .two{
     background-color: #76448A;
@@ -40,4 +61,13 @@ section{
     display: block;
     text-align: center;
     padding-top: 50vh;
+}
+.five{
+    background-color: #148F77;
+    display: block;
+    text-align: center;
+    padding-top: 50vh;
+}
+a{
+    text-decoration: none;
 }
