@@ -53,7 +53,7 @@ section{
     display: block;
 }
 .about-page{
-    padding: 30vh 30vh;
+    padding: 25vh 30vh;
 }
 .about-page h1{
     font-size: 4rem;
@@ -75,15 +75,81 @@ section{
 .margin-selector{
     margin-bottom: 3rem;
 }
-.social-list{
-    display: flex;
-    list-style: none;
-}
-.social-list li a{
-    padding: 0 1rem;
-    display: block;
-    font-size: 2rem;
-}
+
+.wrapper .button{
+    display: inline-block;
+    height: 3.1rem;
+    width: 3.1rem;
+    /* float: left; */
+    margin: 0 5px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 160px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 3.1rem;
+    width: 3.15rem;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 3.1rem;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover{
+    background: #0A66C2;
+  }
+  .wrapper .button:nth-child(2):hover{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  .wrapper .button:nth-child(4):hover{
+    background: #333;
+  }
+  .wrapper .button:nth-child(5):hover{
+    background: #0088cc;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    color: #1A5276;
+    line-height: 3.2rem;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-left: 1px;
+    transition: all 0.3s ease-out;
+    position: relative;
+    bottom: 2.1px;
+  }
+/*  .wrapper .button:nth-child(1) span{
+    color: #0A66C2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #0088cc;
+  } */
 
 
 
