@@ -78,15 +78,15 @@ section{
 
 .wrapper .button{
     display: inline-block;
-    height: 3.1rem;
-    width: 3.1rem;
+    height: 2.8rem;
+    width: 2.8rem;
     /* float: left; */
     margin: 0 5px;
     overflow: hidden;
     background: rgb(255, 255, 255);
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease-out;
   }
   .wrapper .button:hover{
@@ -94,12 +94,12 @@ section{
   }
   .wrapper .button .icon{
     display: inline-block;
-    height: 3.1rem;
-    width: 3.15rem;
+    height: 2.8rem;
+    width: 2.85rem;
     text-align: center;
     border-radius: 50px;
     box-sizing: border-box;
-    line-height: 3.1rem;
+    line-height: 2.8rem;
     transition: all 0.3s ease-out;
   }
   .wrapper .button:nth-child(1):hover{
@@ -120,7 +120,7 @@ section{
   .wrapper .button .icon i{
     font-size: 25px;
     color: #1A5276;
-    line-height: 3.2rem;
+    line-height: 2.9rem;
     transition: all 0.3s ease-out;
   }
   .wrapper .button:hover .icon i{
@@ -135,7 +135,7 @@ section{
     position: relative;
     bottom: 2.1px;
   }
-/*  .wrapper .button:nth-child(1) span{
+ /* .wrapper .button:nth-child(1) span{
     color: #0A66C2;
   }
   .wrapper .button:nth-child(2) span{
