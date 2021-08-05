@@ -35,6 +35,11 @@ section{
 .name-page{
     padding: 30vh 35vh;
 }
+.name-page .iam h3{
+  margin-left: 0.3rem;
+  position: relative;
+  top: 0.3rem;
+}
 .name-page h1{
     font-size: 4.5rem;
     font-weight: 300;
@@ -159,12 +164,48 @@ section{
     display: block;
 }
 .skills-page{
-    padding: 30vh 35vh;
+    padding: 20vh 25vh;
+    box-sizing: border-box;
+    display: inline-block;
 }
 .skills-page h1{
     font-size: 3.5rem;
     font-weight: 200;
-    line-height: 1.2;
+    line-height: 1.2rem;
+}
+/* .skills-page {
+  width: 55rem;
+  margin: 0rem 0.8rem;
+} */
+.skill-list{
+  box-sizing: border-box;
+  text-align: start;
+  display: block;
+  padding: 2rem 0rem 2rem 0.4rem;
+}
+.skills-page h3{
+  margin: 10px 0px;
+}
+.programming{
+  padding: 0.6rem 0rem;
+}
+.images {
+  padding-top: 0.1rem;
+  width: 55rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 110px);
+  justify-content: start;
+  align-items: start;
+}
+.programming svg{
+  width: 60px;
+  height: 60px;
+}
+.images svg{
+  transition: 0.5s ;
+}
+.images svg:hover{
+  transform: rotatez(360deg);
 }
 
 .three{
