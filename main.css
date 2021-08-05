@@ -164,9 +164,11 @@ section{
     display: block;
 }
 .skills-page{
-    padding: 20vh 25vh;
+    /* padding: 20vh 0vh 0vh 25vh; */
+    padding: 20vh 0vh 20vh 8vh;
     box-sizing: border-box;
-    display: inline-block;
+    /* grid-template-columns: repeat(auto-fit, 200px); */
+    display: inline-flex;
 }
 .skills-page h1{
     font-size: 3.5rem;
@@ -182,6 +184,7 @@ section{
   text-align: start;
   display: block;
   padding: 2rem 0rem 2rem 0.4rem;
+  width: 80vh;
 }
 .skills-page h3{
   margin: 10px 0px;
@@ -206,6 +209,32 @@ section{
 }
 .images svg:hover{
   transform: rotatez(360deg);
+}
+.skill-bar{
+  background: burlywood;
+  width: 100vh;
+  height: 60vh;
+  margin-left: 4rem;
+  border-radius: 10px;
+  box-shadow:1px 2px 4px 4px rgba(0,0,0,0.1);
+}
+.skill-container{
+  padding: 0rem 3.5rem;
+}
+.skill-name{
+  margin: 2.6rem 0rem;
+}
+.skill-length{
+  width: 85vh;
+  height: 1vh;
+  background: #F2F4F4;
+  border-radius: 10px;
+}
+.skill-container .marg-up{
+  margin-top: 2.4rem;
+}
+.skill-name h3{
+  color: #212F3C;
 }
 
 .three{
