@@ -162,32 +162,48 @@ section{
 .two{
     background-color: #76448A;
     display: block;
+    padding-top: 2vh;
+}
+.skills-heading{
+  font-size: 3.2rem;
+  text-decoration: underline;
+  font-weight: 300;
+  align-self: center;
+  text-align: center;
+  padding-top: 2rem;
 }
 .skills-page{
-    padding: 20vh 25vh;
+    /* padding: 20vh 0vh 0vh 25vh; */
+    padding: 10vh 0vh 20vh 12vh;
     box-sizing: border-box;
-    display: inline-block;
+    /* grid-template-columns: repeat(auto-fit, 200px); */
+    display: inline-flex;
 }
-.skills-page h1{
+/* .skills-page h1{
     font-size: 3.5rem;
     font-weight: 200;
     line-height: 1.2rem;
-}
+} */
 /* .skills-page {
   width: 55rem;
   margin: 0rem 0.8rem;
 } */
 .skill-list{
   box-sizing: border-box;
+  background: burlywood;
   text-align: start;
   display: block;
   padding: 2rem 0rem 2rem 0.4rem;
+  width: 80vh;
+  border-radius: 10px;
+  box-shadow: inset 2px 3px 4px 4px rgba(161, 122, 70, 0.6);
 }
 .skills-page h3{
   margin: 10px 0px;
+  color: #212F3C;
 }
 .programming{
-  padding: 0.6rem 0rem;
+  padding: 0.6rem 0rem 0.6rem 2rem;
 }
 .images {
   padding-top: 0.1rem;
@@ -207,6 +223,56 @@ section{
 .images svg:hover{
   transform: rotatez(360deg);
 }
+.skill-bar{
+  background: burlywood;
+  width: 90vh;
+  height: 60vh;
+  margin-left: 4rem;
+  border-radius: 10px;
+  box-shadow:2px 3px 4px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+.skill-container{
+  padding: 0rem 3rem;
+}
+.skill-name{
+  margin: 2.6rem 0rem;
+}
+.skill-length{
+  width: 80vh;
+  height: 1vh;
+  background: #F2F4F4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.skill-length div{
+  height: 1vh;
+  border-radius: 10px;
+  float: left;
+  background: #76448A;
+}
+.html{
+  width: 90%;
+}
+.css{
+  width: 60%;
+}
+.javascript{
+  width: 40%;
+}
+.cpp{
+  width: 70%;
+}
+.python{
+  width: 40%;
+}
+
+.skill-container .marg-up{
+  margin-top: 2.4rem;
+}
+/* .skill-name h3{
+  color: #212F3C;
+} */
 
 .three{
     background-color: #008080;
