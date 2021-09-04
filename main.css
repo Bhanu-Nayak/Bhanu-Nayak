@@ -277,8 +277,26 @@ section{
 .three{
     background-color: #008080;
     display: block;
-    text-align: center;
-    padding-top: 50vh;
+    /* text-align: center;
+    padding-top: 50vh; */
+}
+.projects{
+  padding-top: 50px;
+}
+.projects-heading{
+  text-align: center;
+  padding: 10px;
+}
+.projects-container{
+  background: rgb(64, 183, 192);
+  padding: 20px;
+  width: 750px;
+  margin: 0px auto;
+  display: flex;
+}
+.project{
+  background: darkslategray;
+  margin: 0px auto;
 }
 .four{
     background-color: #283747;
@@ -352,7 +370,7 @@ textarea{
   background: inherit;
   color: white;
   border: 1px solid black;
-  
+
   margin: 0px 15px 10px;
 }
 .submit:hover{
