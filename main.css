@@ -295,7 +295,8 @@ section{
 .social-container{
   text-align: center;
   padding-top: 8vh;
-  display: inline-flex;
+  display: inline-block;
+  margin-left: 250px;
 }
 .social-head-container{
   margin-bottom: 5vh;
@@ -305,9 +306,12 @@ section{
   font-weight: 300;
 }
 .contact-container{
-  display: inline-block;
+  display: flex;
   text-align: left;
-  background: #283747;
+  background: #035a4a;
+}
+form{
+  width:500px
 }
 .area{
   padding: 2vh;
@@ -348,6 +352,7 @@ textarea{
   background: inherit;
   color: white;
   border: 1px solid black;
+  
   margin: 0px 15px 10px;
 }
 .submit:hover{
@@ -357,4 +362,26 @@ textarea{
 }
 a{
     text-decoration: none;
+}
+.map{
+  padding: 30px 10px 30px 0px;
+  width: 500px
+}
+.footer{
+  margin-top: 100px;
+  padding: 15px;
+  text-align: center;
+  background: #035a4a;
+}
+.foot-icon{
+  display: flex;
+  padding: 10px;
+  margin: 0px 628px;
+}
+.foot-icon .button{
+  padding: 0px 10px;
+  font-size: 25px;;
+}
+.end-text{
+  
 }
