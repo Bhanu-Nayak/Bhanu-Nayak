@@ -289,8 +289,71 @@ section{
 .five{
     background-color: #148F77;
     display: block;
-    text-align: center;
-    padding-top: 50vh;
+    /* text-align: center; */
+    /* padding-top: 20vh; */
+}
+.social-container{
+  text-align: center;
+  padding-top: 8vh;
+  display: inline-flex;
+}
+.social-head-container{
+  margin-bottom: 5vh;
+}
+.social-heading{
+  font-size: 40px;
+  font-weight: 300;
+}
+.contact-container{
+  display: inline-block;
+  text-align: left;
+  background: #283747;
+}
+.area{
+  padding: 2vh;
+}
+.name{
+  font-weight: 300;
+}
+input, textarea{
+  width: 100%;
+  height: 30px;
+  font-family: inherit;
+  font-size: 15px;
+  padding: 14px 10px 10px 2px;
+  letter-spacing: 0.6px;
+  color: var(--color-text-primary);
+  background: inherit;
+  border-width: 0;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+textarea{
+  resize: none;
+  height: 120px;
+}
+.email{
+  font-weight: 300;
+}
+.messege{
+  font-weight: 300;
+}
+.submit{
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  font-family: inherit;
+  font-size: 15px;
+  border-radius: 5px;
+  background: inherit;
+  color: white;
+  border: 1px solid black;
+  margin: 0px 15px 10px;
+}
+.submit:hover{
+  /* color: black; */
+  background: #148F77;
+  border: 1px solid #f1f1f1;
 }
 a{
     text-decoration: none;
