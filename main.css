@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: white;
+}
+body{
+  color: white;
 }
 
 section{
@@ -44,11 +46,16 @@ section{
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 1.2;
+    color: white;
 }
 .name-page p{
     margin-top: 0.8rem;
     font-size: 1.25rem;
     font-weight: 200;
+    color: white;
+}
+.iam h3{
+  color: white;
 }
 
 
@@ -64,23 +71,29 @@ section{
     font-size: 4rem;
     font-weight: 300;
     margin-bottom: 2rem;
+    color: white;
 }
 .about-page h3{
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 300;
+    color: white;
 }
 .about-page p{
     font-size: 1.2rem;
     font-weight: 300;
+    color: white;
 }
 .about-page h3, .about-page p{
     width: 50%;
+    color: white;
 }
 .margin-selector{
     margin-bottom: 3rem;
 }
-
+.wrapper span{
+  color: white;
+}
 .wrapper .button{
     display: inline-block;
     height: 2.8rem;
@@ -280,23 +293,48 @@ section{
     /* text-align: center;
     padding-top: 50vh; */
 }
-.projects{
-  padding-top: 50px;
-}
+/* .projects{
+  padding-top: 20px;
+} */
 .projects-heading{
   text-align: center;
-  padding: 10px;
+  padding: 40px;
 }
 .projects-container{
-  background: rgb(64, 183, 192);
+  /* background: rgb(64, 183, 192); */
   padding: 20px;
-  width: 750px;
+  width: 1000px;
   margin: 0px auto;
   display: flex;
 }
+.projects-text{
+  font-size: 3.2rem;
+  font-weight: 300;
+  text-decoration: underline;
+}
 .project{
-  background: darkslategray;
-  margin: 0px auto;
+  background: rgba(0,0,0,0.1);
+  margin: 0px 10px;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease-out;
+}
+.project:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  background: white;
+  color: black;
+}
+.project-heading{
+  margin: 40px 0px;
+  padding: 10px;
+}
+.project-title{
+  padding: 0px 20px 40px 20px;
+}
+.project-img{
+  width: 100%;
+  height: auto;
 }
 .four{
     background-color: #283747;
@@ -399,7 +437,4 @@ a{
 .foot-icon .button{
   padding: 0px 10px;
   font-size: 25px;;
-}
-.end-text{
-  
 }
