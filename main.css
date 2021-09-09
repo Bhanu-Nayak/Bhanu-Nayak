@@ -22,10 +22,16 @@ section{
 
 /* PAGE ONE-NAME PAGE */
 .one{
-    background-color: #1A5276;
-    display: block;
+    background-color: #1A5276
     /* text-align: center; */
-    /* padding-top: 50vh; */
+    /* padding-top: 30vh; */
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 35vh; */
+  margin: 0px 65px;
 }
 .one h2{
     font-weight: 300;
@@ -35,7 +41,8 @@ section{
     color: rgb(202, 197, 197);
 }
 .name-page{
-    padding: 30vh 35vh;
+  padding: opx;
+  text-align: left;
 }
 .name-page .iam h3{
   margin-left: 0.3rem;
@@ -47,6 +54,7 @@ section{
     font-weight: 300;
     line-height: 1.2;
     color: white;
+    letter-spacing: 3px;
 }
 .name-page p{
     margin-top: 0.8rem;
@@ -57,7 +65,82 @@ section{
 .iam h3{
   color: white;
 }
-
+.mypic{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.mypic .mycard{
+  border-radius: 50%;
+  transform: translateX(60%);
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: #154360 ;
+  box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+.mypic .mycard .imgbx{
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  transform-origin: top;
+}
+.mypic .mycard:hover .imgbx{
+  transform: translateY(10%) scale(0.5);
+}
+.mycard .imgbx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.mypic .mycard .mypic-contents{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+.mypic .mycard:hover .mypic-contents{
+  transform: translateY(0);
+}
+.mypic .mycard .mypic-contents .details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+/* .mypic .mycard .mypic-contents .details .line{
+  width: 100%;
+  height: 2px;
+  background: #fff;
+} */
+.mypic .mycard .mypic-contents .details h2{
+  font-size: 2rem;
+  font-weight: 300;
+}
+.mypic .mycard .mypic-contents .details h2 span{
+  font-size: 1rem;
+  font-weight: 300;
+}
 
 /* ABOUT ME PAGE */
 .about-me{
@@ -370,7 +453,7 @@ section{
 }
 .blogs-card:hover .blogs-content{
   opacity: 1;
-  top: 40px;
+  top: 30px;
 }
 .blogs-content h2{
   padding: 20px;
